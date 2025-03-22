@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1951965938801295084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6154454068214511963}
+  - component: {fileID: 2840844564646097355}
+  m_Layer: 0
+  m_Name: INVADERS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6154454068214511963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951965938801295084}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2840844564646097355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951965938801295084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 159b6617acc59c7429a4df77a1060e70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  invaderPrefabs:
+  - {fileID: 1403386650916396527, guid: c44da6e125e3ed94f939d73b6c50b363, type: 3}
+  - {fileID: 1403386650916396527, guid: c44da6e125e3ed94f939d73b6c50b363, type: 3}
+  - {fileID: 931433075830244545, guid: c89ce7b5254e67a4796698b5104725cb, type: 3}
+  - {fileID: 931433075830244545, guid: c89ce7b5254e67a4796698b5104725cb, type: 3}
+  - {fileID: 2052759906748068285, guid: df111a2e69c86564bb09c889cb3aa343, type: 3}
+  missilePrefab: {fileID: 4941989337080616108, guid: 59215fc9884f4264798037d123c16483, type: 3}
+  missileAttackRepeatRate: 2
+  missileAttackDelay: 1
+  movementSpeed:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.25
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 2
+      inSlope: 1.7171154
+      outSlope: 1.7171154
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.08515817
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
